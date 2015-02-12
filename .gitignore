@@ -3,7 +3,7 @@ framework/*/build
 framework/base/lib/cobertura-*.jar
 framework/base/lib/asm*.jar
 framework/base/lib/oro*.jar
-framework/entity/lib/jdbc/*.jar
+!framework/entity/lib/jdbc/mysql*.jar
 !framework/entity/lib/jdbc/derby*.jar
 hot-deploy/*/build
 specialpurpose/*/build
